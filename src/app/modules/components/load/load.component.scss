@@ -1,0 +1,119 @@
+:host {
+  .card {
+    width: 28rem;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 1rem;
+
+    input {
+      width: 100%;
+      height: 1.5rem;
+      background-color: #04da6f;
+      border-radius: 5px;
+      color: #000000a2;
+      border: none;
+      outline: none;
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+      text-align: end;
+      padding-right: 0.3rem;
+    }
+
+    input[type="number"]::-webkit-inner-spin-button {
+      appearance: none;
+    }
+
+    select {
+      width: 50%;
+      height: 1.5rem;
+      font-size: 0.9rem;
+      background-color: #04da6f;
+      border-radius: 5px;
+      color: #ffffff;
+      border: none;
+      outline: none;
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+      text-align: end;
+    }
+    select option {
+      background-color: #fff;
+      color: rgb(0, 0, 0);
+    }
+    input::placeholder {
+      color: #ffffffb6;
+      text-align: end;
+    }
+
+    .package {
+      margin-top: 2rem;
+      p {
+        margin-top: 0.7rem;
+        font-size: 0.9rem;
+      }
+      .package-info {
+        display: flex;
+        justify-content: space-between;
+        button {
+          background-color: #04da6f;
+          border: none;
+          box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+          border-radius: 7px;
+          color: #fff;
+          cursor: pointer;
+        }
+      }
+      .package-data {
+        margin-top: 0.8rem;
+        display: flex;
+        gap: 0.5rem;
+      }
+      .package-kg {
+        margin-top: 0.7rem;
+        display: flex;
+        justify-content: space-between;
+        input {
+          width: 10rem;
+        }
+        p {
+          margin-top: 0.3rem;
+        }
+      }
+    }
+
+    .pallet {
+      margin-top: 1rem;
+      p {
+        margin-top: 0.2rem;
+        font-size: 0.9rem;
+      }
+      .pallet-size {
+        margin-top: 0.7rem;
+        display: flex;
+        justify-content: space-between;
+      }
+      .pallet-height {
+        margin-top: 0.8rem;
+        display: flex;
+        justify-content: space-between;
+        input {
+          width: 10rem;
+        }
+      }
+    }
+  }
+  .btn-content {
+    display: flex;
+    justify-content: center;
+    margin-top: 3.8rem;
+    button {
+      width: 30%;
+      height: 2rem;
+      background-color: #04da6f;
+      border: none;
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+      border-radius: 5px;
+      color: #fff;
+      cursor: pointer;
+    }
+  }
+}

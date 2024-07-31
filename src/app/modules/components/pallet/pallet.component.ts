@@ -28,8 +28,6 @@ export class PalletComponent implements AfterViewInit, OnDestroy {
       this.initThreeJS();
       this.animate();
       window.addEventListener('resize', this.onWindowResize.bind(this));
-    } else {
-      console.error('Container reference is not available.');
     }
   }
 
